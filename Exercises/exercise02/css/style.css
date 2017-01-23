@@ -1,0 +1,69 @@
+
+
+/* Daniel Munoz ortiz */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  position: absolute;
+  margin-top: 2%;
+  padding: 0.075em;
+  font-family: helvetica;
+  font-size: 6em;
+  font-weight: bold;
+  line-height: 0.9;
+  color: white;
+}
+
+.name1{
+color: #ffecaa;
+}
+
+.name2{
+  color:#3e7c87;
+}
+
+.name3{
+  color:#890c6a;
+}
+
+.name4{
+  color:#9ffcad;
+}
+
+.name5{
+  color:#a8a5c9;
+}
+
+.name6{
+  color:#2f0847;
+}
+
+
+#today {
+  position: absolute;
+  margin-top: 25%;
+  padding: 0.075em;
+  font-family: helvetica;
+  font-size: 6em;
+  font-weight: bold;
+  line-height: 0.9;
+  color: white;
+}
+
+
+.flashing{
+  animation-name: flashing;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes flashing{
+  0% {background-color: #c2d7f9;}
+  50%{background-color: #f9c2c2;}
+  100% {background-color: #c2d7f9;}
+}
