@@ -1,0 +1,97 @@
+
+
+/* Daniel Munoz ortiz */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.new{
+  background-color: black;
+}
+
+div {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin: 5px;
+  float: left;
+}
+#intro{
+  position: absolute;
+  margin-top: 22%;
+  margin-left: 1%;
+  padding: 0.075em;
+  font-family: helvetica;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 0.9;
+  color: white;
+}
+
+#counter{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 89%;
+  padding: 0.075em;
+  font-family: helvetica;
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 0.9;
+  color: white;
+}
+
+.background_space{
+  animation-name: flashing;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flashing{
+  0% {background-color: #c2d7f9;}
+  50%{background-color: #f9c2c2;}
+  100% {background-color: #c2d7f9;}
+}
+
+#circle{
+  animation-name: flashing2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flashing2{
+  0% {background-color: #4d3b87;}
+  30%{background-color: #6b193a;}
+  50%{background-color: #440f43;}
+  70%{background-color:#253559;}
+  100% {background-color: #4d3b87;}
+}
+
+#circle.clicked{
+  animation-name: flashing3;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flashing3{
+  0% {background-color: black;}
+  30%{background-color: white;}
+  50%{background-color: black;}
+  70%{background-color: white;}
+  100% {background-color: black;}
+}
+
+#intro.clicked{
+  animation-name: flashing4;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flashing4{
+  0% {color: black;}
+  30%{color: white;}
+  50%{color: black;}
+  70%{color: white;}
+  100% {color: black;}
+}
