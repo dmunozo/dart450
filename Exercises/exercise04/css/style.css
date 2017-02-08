@@ -1,0 +1,23 @@
+
+
+/*
+Ten Falling Rectangles Array
+Pippin Barr
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background_space{
+  animation-name: flashing;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flashing{
+  0% {background-color: #c2d7f9;}
+  50%{background-color: #f9c2c2;}
+  100% {background-color: #c2d7f9;}
+}
