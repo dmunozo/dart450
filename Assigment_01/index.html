@@ -1,0 +1,110 @@
+<!-- ************************************************************************
+Assigment 01
+Daniel Munoz
+************************************************************************ -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head class="no-skrollr">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>The Sailor</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <!-- jQuerys
+        -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/script.js" content="text/javascript"></script>
+
+</head>
+
+
+<body>
+  <!-- Paragraphs containing the story, populated by arrays
+        -->
+
+<p id="marc">this is a story-generator, everytime you reload the window a new story will be rendered. </p>
+<div class="container">
+  <p class="title">scroll down</p>
+    <p class="p1"></p>
+    <p class="p2"></p>
+    <p class="p3"></p>
+    <p class="however"> HOWEVER...</p>
+    <p class="p4"></p>
+    <p class="p5"></p>
+    <p class="p6"></p>
+    <p class="p7"></p>
+    <p class="p8"></p>
+    <p class="p9">A HORRIBLE THOUGHT STROKE HIS MIND</p>
+    <p class="p10"></p>
+    <p class="p11"></p>
+    <p class="p12">"I am some kind of prisioner, condemned to travel these waters forever"</p>
+    <p class="p13">"I am some kind of slave that lives in captivity in a fake world"</p>
+    <p class="p14">"Trapped in some kind of loop, sentenced to start over and over again..."</p>
+
+    <!-- Graphic Content
+          -->
+
+    <div id="skrollr-body">
+
+  <div data-0="transform:rotate(0deg);" data-500="transform:rotate(360deg);" id="circle1" class="elipse"></div>
+  <div data-60="transform:rotate(0deg);" data-3500="transform:rotate(360deg);" id="circle2" class="elipse" ></div>
+  <div data-60="transform:rotate(360deg);" data-3500="transform:rotate(0deg);" id="circle3" class="elipse"></div>
+  <div data-60="transform:rotate(0deg);" data-3500="transform:rotate(360deg);" id="circle4" class="elipse"></div>
+  <div data-5460="transform:rotate(0deg);" data-7000="transform:rotate(360deg);" id="circle5" class="elipse"></div>
+
+  <img data-60="transform:rotate(360deg);" data-3500="transform:rotate(0deg);" id="pattern" src="images/pattern.png">
+  <img id="pattern2" data-0="width:40%; height: 100%;" data-3500="width:80%; height: 200%;"src="images/pattern2.png">
+  <img id="pattern3" data-0="left[cos]:-100%;top[sin]:10%;" data-7000="left:90%;top:90%;" src="images/pattern3.png">
+  <img id="pattern4" data-0="width:40%; height: 100%;" data-3500="width:80%; height: 200%;" src="images/pattern4.png">
+  <img id="pattern5" data-60="transform:rotate(0deg);" data-2500="transform:rotate(360deg);"src="images/space.png">
+  <img id="pattern6" data-60="transform:rotate(0deg); opacity:0.9;" data-4500="transform:rotate(360deg);opacity:0;"src="images/pattern5.png">
+  <img id="pattern7" data-2300="left[cos]:-100%;top[sin]:10%;transform:rotate(0deg);" data-7000="left:90%;top:90%;transform:rotate(200deg);" src="images/pattern3.png">
+  <img id="pattern8" data-3060="transform:rotate(360deg);" data-6500="transform:rotate(0deg);"src="images/space.png">
+  <img id="pattern9" data-5160="transform:rotate(300deg);opacity:0;" data-6200="transform:rotate(360deg);opacity:1;"src="images/pattern6.png">
+  <img id="pattern10" data-4600="transform:rotate(300deg); opacity:0.9;" data-7000="transform:rotate(260deg);opacity:0.2;"src="images/pattern5.png">
+    </div>
+
+</div>
+
+</body>
+
+<!-- Movement Library
+      -->
+
+<script type="text/javascript" src="dist/skrollr.min.js"></script>
+
+<!-- Rotation script
+      -->
+
+<script type="text/javascript">
+	var s = skrollr.init();
+	</script>
+
+  <div id="thing" data-0="left[cos]:8%;top[sin]:10%;" data-7000="left:90%;top:90%;"></div>
+
+  <script type="text/javascript" src="../dist/skrollr.min.js"></script>
+  	<script type="text/javascript">
+  	skrollr.init({
+  		easing: {
+  			sin: function(p) {
+  				return (Math.sin(p * Math.PI * 2 - Math.PI/2) + 1) / 2;
+  			},
+  			cos: function(p) {
+  				return (Math.cos(p * Math.PI * 2 - Math.PI/2) + 1) / 2;
+  			},
+  		},
+  		render: function(data) {
+  			//Loop
+  			if(data.curTop === data.maxTop) {
+  				this.setScrollTop(0, true);
+  			}
+  		}
+  	});
+  	</script>
+
+
+</html>

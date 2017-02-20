@@ -1,0 +1,443 @@
+
+/*
+Daniel Munoz
+*/
+
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ------------------ Instructions ------------------- */
+#marc{
+  position:absolute;
+  margin-left:2%;
+  margin-top: 1%;
+ font-family: montserrat;
+ font-size: 12px;
+}
+
+/* ------------------ Contents ------------------- */
+
+/* ------------------ Main Title ------------------- */
+
+.title{
+  position:fixed;
+  margin-left:42%;
+  margin-top: 11%;
+  text-align: center;
+  font-size: 40px;
+  font-family: montserrat;
+  letter-spacing: -2px;
+  color:#242829;
+}
+
+.move{
+  animation-name: moveAn;
+  animation-duration: 1s;
+ animation-fill-mode: forwards;
+}
+
+@keyframes moveAn{
+  0% {opacity:1;}
+  50% {opacity:0.5;}
+  100% {opacity:0;}
+}
+
+
+/* ------------------ Paragraphs ------------------- */
+
+.p1{
+  position:absolute;;
+  margin-left:18%;
+  margin-top: 26%;
+  text-align: center;
+  font-size: 20px;
+  font-family: montserrat;
+  letter-spacing: -1px;
+  color:#242829;
+}
+
+.p2{
+  position:absolute;;
+  margin-left:22%;
+  margin-top: 71%;
+  text-align: center;
+  font-size: 20px;
+  font-family: montserrat;
+  letter-spacing: -1px;
+  color:#242829;
+}
+
+.p3{
+  position:absolute;;
+  margin-left:18%;
+  margin-top: 171%;
+  text-align: center;
+  font-size: 20px;
+  font-family: montserrat;
+  letter-spacing: -1px;
+  color:#242829;
+}
+
+.p4{
+  position:absolute;;
+  margin-left:46%;
+  margin-top: 201%;
+  text-align: center;
+  font-size: 20px;
+  font-family: montserrat;
+  letter-spacing: -1px;
+  color:#242829;
+}
+
+.however{
+  position:absolute;
+  margin-left:36%;
+  margin-top: 181%;
+  text-align: center;
+  font-size: 120px;
+  font-family: montserrat;
+  letter-spacing: -5px;
+  color:#242829;
+  animation-name: flashing3;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flashing3{
+  0% {color: #f9c2c2;}
+  50%{color: #c2d7f9;}
+  100% {color: #f9c2c2;}
+}
+
+.p5{
+  position:absolute;;
+  margin-left:46%;
+  margin-top: 271%;
+  text-align: center;
+  font-size: 20px;
+  font-family: montserrat;
+  letter-spacing: -1px;
+  color:#242829;
+}
+
+.p6{
+  position:absolute;;
+  margin-left:46%;
+  margin-top: 291%;
+  text-align: center;
+  font-size: 20px;
+  font-family: montserrat;
+  letter-spacing: -1px;
+  color:#242829;
+}
+
+.p7{
+  position:absolute;;
+  margin-left:6%;
+  margin-top: 321%;
+  text-align: center;
+  font-size: 20px;
+  font-family: montserrat;
+  letter-spacing: -1px;
+  color:#242829;
+}
+
+.p8{
+  position:absolute;;
+  margin-left:6%;
+  margin-top: 351%;
+  text-align: center;
+  font-size: 20px;
+  font-family: montserrat;
+  letter-spacing: -1px;
+  color:#242829;
+}
+
+.p9{
+  position:absolute;;
+  margin-left:9%;
+  margin-top: 431%;
+  text-align: center;
+  font-size: 50px;
+  font-family: montserrat;
+  letter-spacing: -1px;
+  color:#242829;
+}
+
+.p10{
+  position:absolute;;
+  margin-left:39%;
+  margin-top: 461%;
+  text-align: center;
+  font-size: 20px;
+  font-family: montserrat;
+  letter-spacing: -1px;
+  color:#242829;
+}
+
+.p11{
+  position:absolute;;
+  margin-left:39%;
+  margin-top: 521%;
+  text-align: center;
+  font-size: 20px;
+  font-family: montserrat;
+  letter-spacing: -1px;
+  color:#242829;
+}
+
+.p12{
+  position:absolute;;
+  margin-left:9%;
+  margin-top: 535%;
+  text-align: center;
+  font-size: 20px;
+  font-family: montserrat;
+  letter-spacing: -1px;
+  color:#242829;
+}
+
+.p13{
+  position:absolute;;
+  margin-left:13%;
+  margin-top: 538%;
+  text-align: center;
+  font-size: 20px;
+  font-family: montserrat;
+  letter-spacing: -1px;
+  color:#242829;
+}
+
+.p14{
+  position:absolute;;
+  margin-left:19%;
+  margin-top: 541%;
+  text-align: center;
+  font-size: 20px;
+  font-family: montserrat;
+  letter-spacing: -1px;
+  color:#242829;
+}
+
+/* ------------------ Graphics ------------------- */
+
+.elipse{
+background-image: url(../images/marble.jpg);
+background-position: right;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+#circle1{
+  position: absolute;
+  background-color: blue;
+  width:300px;
+  height:300px;
+  margin-top: 13%;
+  border-radius: 150px;
+  margin-left: 71%;
+  background-image: url(../images/marble.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#circle2{
+  position: absolute;
+  background-color: blue;
+  width:400px;
+  height:400px;
+  margin-top: 230%;
+  border-radius: 200px;
+  margin-left: 51%;
+  background-image: url(../images/marble.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#circle3{
+  position: absolute;
+  background-color: blue;
+  width:220px;
+  height:220px;
+  margin-top: 130%;
+  border-radius: 110px;
+  margin-left: 11%;
+}
+
+#circle4{
+  position: absolute;
+  background-color: blue;
+  width:70px;
+  height:70px;
+  margin-top: 300%;
+  margin-bottom: 40px;
+  border-radius: 35px;
+  margin-left: 11%;
+}
+
+#circle5{
+  position: absolute;
+  background-color: blue;
+  width:270px;
+  height:270px;
+  margin-top: 550%;
+  margin-bottom: 40px;
+  border-radius: 135px;
+  margin-left: 39%;
+}
+
+#pattern{
+  position: absolute;
+  width: auto;
+  height: auto;
+  margin-top: 100%;
+  margin-left: 71%;
+  z-index: 2;
+  overflow: hidden;
+}
+
+#pattern2{
+  position: absolute;
+  width: 600px;
+  height: 1300px;
+  margin-top: 170%;
+  margin-left: -21%;
+  z-index: 2;
+  opacity: 0.8;
+}
+
+#pattern3{
+  position: absolute;
+  width: 80%;
+  height: 160%;
+  margin-top: 30%;
+  margin-left: -11%;
+  z-index: 2;
+}
+
+#pattern4{
+  position: absolute;
+  margin-top: 80%;
+  margin-left: -16%;
+  z-index: -1;
+}
+
+#pattern5{
+  max-width:80%;
+ max-height:80%;
+ width: auto;
+ height: auto;
+  position: absolute;
+  margin-top: 120%;
+  margin-left: 46%;
+  z-index: -1;
+}
+
+#pattern6{
+  max-width:220%;
+ max-height:220%;
+ width: auto;
+ height: auto;
+  position: absolute;
+  margin-top: 260%;
+  margin-left: 6%;
+  z-index: -1;
+}
+
+#pattern7{
+  max-width:200%;
+ max-height:200%;
+ width: auto;
+ height: auto;
+  position: absolute;
+  margin-top: 269%;
+  margin-left: 6%;
+  z-index: -1;
+}
+
+#pattern8{
+  max-width:100%;
+ max-height:100%;
+ width: auto;
+ height: auto;
+  position: absolute;
+  margin-top: 439%;
+  margin-left: -26%;
+  z-index: -1;
+}
+
+#pattern9{
+  max-width:100%;
+ max-height:100%;
+ width: auto;
+ height: auto;
+  position: absolute;
+  margin-top: 459%;
+  margin-left: 6%;
+  z-index: -1;
+}
+
+#pattern10{
+  max-width:120%;
+ max-height:120%;
+ width: auto;
+ height: auto;
+  position: absolute;
+  margin-top: 529%;
+  margin-left: 6%;
+  z-index: -1;
+}
+
+.background_space{
+  animation-name: flashing;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flashing{
+  0% {background-color: #c2d7f9;}
+  50%{background-color: #f9c2c2;}
+  100% {background-color: #c2d7f9;}
+}
+
+/* ------------------ Small circle that loops the story ------------------- */
+#thing {
+  width:32px;
+  height:32px;
+  border-radius:16px;
+  background:#000;
+  z-index: 2;
+  animation-name: flashing2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flashing2{
+  0% {background-color: #f9c2c2;}
+  50%{background-color: #c2d7f9;}
+  100% {background-color: #f9c2c2;}
+}
+
+/* ------------------ Scrolling JQuery Plugg-in ------------------- */
+
+.skrollable {
+	position:fixed;
+	z-index:100;
+}
+.skrollable .skrollable {
+	position:absolute;
+}
+.skrollable .skrollable .skrollable {
+	position:static;
+}
