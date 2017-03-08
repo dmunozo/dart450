@@ -1,0 +1,64 @@
+<!-- ************************************************************************
+Daniel Munoz
+************************************************************************ -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head class="no-skrollr">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>Macondo</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <!-- jQuery  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/script.js" content="text/javascript"></script>
+
+</head>
+
+
+<body>
+
+<h1> This is the first step </h1>
+<h1> towards Macondo... </h1>
+
+<div id="container">
+    <div id="skrollr-body">
+
+  <img id="branch_1" data-0="width:40%; height: 100%; left:10%;" data-1000="width:45%; height: 105%; left:0%;" src="images/branch_1.png">
+  <img id="branch_2" data-0="width:40%; height: 100%; left:0%;" data-1000="width:45%; height: 105%; left:5%;"src="images/branch_2.png">
+  <img id="branch_3" data-0="left:-10%;" data-1000="left:0%;" src="images/branch_3.png">
+  <img id="branch_4" data-0="left:-5%;" data-1000="left:0%;" src="images/branch_4.png">
+
+    </div>
+</div>
+
+</body>
+
+  <div id="thing" data-0="left[cos]:8%;top[sin]:10%;" data-1000="left:90%;top:90%;"></div>
+
+  <script type="text/javascript" src="dist/skrollr.min.js"></script>
+  	<script type="text/javascript">
+  	skrollr.init({
+  		easing: {
+  			sin: function(p) {
+  				return (Math.sin(p * Math.PI * 2 - Math.PI/2) + 1) / 2;
+  			},
+  			cos: function(p) {
+  				return (Math.cos(p * Math.PI * 2 - Math.PI/2) + 1) / 2;
+  			},
+  		},
+  		render: function(data) {
+  			//Loop
+  			if(data.curTop === data.maxTop) {
+  				this.setScrollTop(0, true);
+  			}
+  		}
+  	});
+  	</script>
+
+
+</html>
