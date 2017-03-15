@@ -1,0 +1,83 @@
+/*
+
+Daniel Munoz
+
+*/
+@font-face {
+    font-family: euclid;
+    src: url(../type/euclid.ttf);
+}
+
+body {
+  margin-top: 2em;
+  margin-left: 2em;
+  background-color: #ddae04;
+}
+
+#container{
+  width: 100%;
+  height: 100%;
+  position:fixed;
+  overflow: hidden;
+}
+
+#content {
+  margin-top: 22%;
+  text-align: center;
+  color:#4e5560;
+  font-family: euclid;
+  font-size: 3em;
+}
+
+.balloon{
+  position: absolute;
+  background-color: #29c3d1;
+  z-index: 3;
+}
+
+#b1{
+  margin-top: 90%;
+  margin-left: 10%;
+  width:60px;
+  height: 60px;
+  border-radius: 30px;
+}
+  #b2{
+    margin-top: 80%;
+    margin-left: 20%;
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+  }
+    #b3{
+      margin-top: 70%;
+      margin-left: 30%;
+      width:160px;
+      height: 160px;
+      border-radius: 80px;
+    }
+      #b4{
+        margin-top: 40%;
+        margin-left: 40%;
+        width:60px;
+        height: 60px;
+        border-radius: 30px;
+      }
+        #b5{
+          margin-top: 70%;
+          margin-left: 50%;
+          width:100px;
+          height: 100px;
+          border-radius: 50px;
+        }
+          #b6{
+            margin-top: 80%;
+            margin-left: 60%;
+            width:200px;
+            height: 200px;
+            border-radius: 100px;
+          }
+
+.blast {
+  display: inline-block; /* to allow manipulation of transform */
+}
