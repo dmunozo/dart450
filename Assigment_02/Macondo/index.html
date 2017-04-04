@@ -1,0 +1,90 @@
+<!-- ************************************************************************
+Daniel Munoz
+MACONDO
+
+************************************************************************ -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head class="no-skrollr">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>Macondo</title>
+
+  <!-- **************************- LINKS -**********************************-->
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <!-- jQuery  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- jQuery UI -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+  <!-- My Javascript  -->
+  <script src="js/script.js" content="text/javascript"></script>
+
+  <!-- ScrollMagic  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+  <script src="js/ScrollMagic.min.js"></script>
+  <script type="text/javascript" src="dist/skrollr.min.js"></script>
+
+  <!-- Responsive Voice  -->
+  <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+
+  <!-- Animation Plug-in  -->
+  <script src="js/plugins/animation.gsap.min.js"></script>
+
+</head>
+
+
+  <!-- **************************- BODY -**********************************-->
+
+<body>
+
+  <h1 data-0="margin-top: -29%; z-index:-2; " data-900=" margin-top: -60%; z-index:-2;"> MACONDO </h1>
+
+<div id="container">
+    <div id="skrollr-body">
+
+      <a href="page_2"><div id="mango"></div></a>
+
+  <img id="branch_1" data-0="width:40%; height: 100%; left:10%;" data-1200="width:45%; height: 105%; left:0%;" src="images/branch_1.png">
+  <img id="branch_2" data-200="width:40%; height: 100%; left:0%;" data-1330="width:45%; height: 105%; left:5%;"src="images/branch_2.png">
+  <img id="branch_3" data-0="left:-10%;" data-1500="left:0%;" src="images/branch_3.png">
+  <img id="branch_4" data-0="left:-5%;" data-1500="left:0%;" src="images/branch_4.png">
+  <img id="stars" data-0="left:0%; opacity:0;" data-1500="left:-25%; opacity:0.9;" src="images/stars.png">
+  <img id="cloud" data-0="left:10%; opacity:0;" data-1200="left:35%; opacity:0.3;" src="images/cloud.png">
+  <img id="cloud_2" data-0="left:30%; opacity:0;" data-1500="left:65%; opacity:0.5;" src="images/cloud_2.png">
+  <img id="pulpo" data-890="left:88%;" data-1500="left:72%; " src="images/pulpo.png">
+  <img id="flamingo" data-990="left:80%;" data-1500="left:72%; " src="images/flamingo.png">
+  <img id="camaleon" data-990="left:-10%;" data-1500="left:0%; " src="images/camaleon.png">
+  <img id="village" data-990="left:-10%;" data-1500="left:0%; " src="images/village.png">
+  <img id="birds"src="images/birds.png">
+
+
+    </div>
+
+    <div id="instructions">
+      <h2>Hover over those trees and find the mango in order to continue.</h2>
+    </div>
+
+    <div id="button_start">
+    </div>
+</div>
+
+</body>
+  	<script type="text/javascript">
+  	skrollr.init({
+  		render: function(data) {
+  			//Loop
+  			data.curTop === data.maxTop
+  		}
+  	});
+  	</script>
+
+
+</html>
