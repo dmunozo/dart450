@@ -22,7 +22,7 @@ var talkingNow = false;
 $(document).ready(function() {
 
 //-------------------------------> Controls the volume of music
-document.getElementById("music").volume = 0.3;
+document.getElementById("music").volume = 0.8;
 
 scroll_color() //controls the change of color when scrolling
 button_start() //controls the start button, color and actions
