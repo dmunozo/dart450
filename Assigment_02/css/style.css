@@ -28,9 +28,9 @@ h1{
   position: static;
   font-family:cinzel;
    font-weight: 100;
-  font-size: 890%;
+  font-size: 1000%;
   color: white;
-  margin-left: 19%;
+  margin-left: 14%;
 }
 
 #instructions{
@@ -151,7 +151,7 @@ position:relative;
 
 #branch_2{
   display: block;
-position:relative;
+  position:relative;
   width: 34%;
   height:41%;
   margin-top: -7%;
@@ -195,7 +195,7 @@ position:relative;
 #village{
   display: block;
   position:relative;
-  width: 100%;
+  width: 110%;
   height: 14%;
   margin-top: -25%;
   margin-left: 2;
