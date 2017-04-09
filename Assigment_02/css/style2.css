@@ -19,7 +19,7 @@ Daniel Munoz
 }
 
 body {
-  background-color: #02586b;
+  background-color: #121d23;
   margin: 0;
   padding: 0;
 }
@@ -61,7 +61,6 @@ h2{
 }
 
 #container{
-  margin-top: 45%;
   width: 100%;
   height: 100%;
   overflow-x: hidden;
@@ -90,27 +89,26 @@ h2{
 #stars{
   display: block;
   position:relative;
-  max-width: 120%;
-  margin-top: -60%;
-  z-index: -3;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: -20%;
+  z-index: 1;
 }
 
 #cloud_2{
   display: block;
   position:relative;
-  width: 54%;
-  height: 26%;
-  margin-top: 10%;
-  z-index: -2;
+  max-width: 28%;
+  margin-top: -30%;
+  z-index: 2;
 }
 
 #cloud{
   display: block;
   position:relative;
-  width: 44%;
-  height: 21%;
-  margin-top: -83%;
-  z-index: -2;
+  max-width: 37%;
+  margin-top: 20%;
+  z-index: 2;
 }
 
 #pulpo{
@@ -125,19 +123,17 @@ h2{
 #flamingo{
   display: block;
   position:relative;
-  width: 28%;
-  height: 14%;
-  margin-top: -10%;
-  z-index: -2;
+  max-width: 20%;
+  margin-top: -30%;
+  z-index: 2;
 }
 
 #camaleon{
   display: block;
   position:relative;
-  width: 28%;
-  height: 14%;
-  margin-top: -26%;
-  z-index: -2;
+  max-width: 40%;
+  margin-top: -40%;
+  z-index: 2;
 }
 
 #branch_1{
@@ -145,9 +141,9 @@ h2{
 position:relative;
   width: 34%;
   height:57%;
-  margin-top: 4%;
+  margin-top: 0%;
   margin-left: 66%;
-  z-index: 3;
+  z-index: 1;
 }
 
 #branch_2{
@@ -155,9 +151,9 @@ position:relative;
   position:relative;
   width: 34%;
   height:41%;
-  margin-top: -7%;
+  margin-top: -11.4%;
   margin-left: 66%;
-  z-index: -1;
+  z-index: 2;
 }
 
 #branch_3{
@@ -165,7 +161,7 @@ position:relative;
   position:relative;
   width: 50%;
   height:70%;
-  margin-top: -27%;
+  margin-top: -32%;
   margin-left: 0%;
   z-index: 3;
 }
@@ -173,34 +169,49 @@ position:relative;
 #branch_4{
   display: block;
   position:relative;
-  width: 50%;
-  height:70%;
-  margin-top: -13%;
+  max-width: 40%;
+  margin-top: -60%;
   margin-left: 0%;
   z-index: 2;
 }
 
 #button_start{
   position: static;
-  background-image: url(../images/fire.gif);
+  background-image: url(../images/guy.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   width: 100px;
   height: 100px;
   z-index: 5;
-  margin: 5% auto;
+  margin: -35% auto;
 
 }
 
-#village{
+#aquarium{
+  width: 1280px;
+  height: 859px;
+  position: absolute;
+  z-index: 7;
+  margin-top: 52.6%;
+}
+
+#mountains{
   display: block;
   position:relative;
-  width: 110%;
-  height: 14%;
-  margin-top: -25%;
-  margin-left: 2;
-  z-index: -3;
+  max-width: 100%;
+  margin-top: -70%;
+  margin-left: 0%;
+  z-index: 1;
+}
+
+#background{
+  display: block;
+  position:relative;
+  max-width: 120%;
+  margin-top: -10%;
+  margin-left: -10%;
+  z-index: -2;
 }
 
 #birds{
@@ -210,6 +221,16 @@ position:relative;
   margin-top: -51%;
   margin-left: -50%;
   z-index: 5;
+}
+
+#button_start{
+  background-image: url("../images/guy.png");
+  position:relative;
+  margin-top: -75%;
+  margin-left:43%;
+  width: 20%;
+  height: 20%;
+  z-index: 8;
 }
 
 .birds-motion{

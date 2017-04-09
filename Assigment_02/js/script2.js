@@ -7,8 +7,6 @@ Description:
 Slow web, magic realism, illustration.
 */
 
-
-
 //-------------------------------> Variables containing voice
 
 
@@ -30,15 +28,15 @@ function scroll_color(){ //-------------------------------> Scroll_color
 
   var scene = new ScrollMagic.Scene({
   triggerElement: "body",
-  duration: 500
+  duration: 1500
 });
 
 //Change color of background when scrolling down
 scene.setTween("body", 05, {
-    "backgroundColor": "#121d23",
+    "backgroundColor": "#1c4d77",
 });
 
-  scene.triggerHook(0.9);
+  scene.triggerHook(0.1);
   scene.addTo(controller);
 
 }
@@ -59,12 +57,11 @@ function mango(){ //--------------------------------------> Mango
 function button_start(){ //-------------------------------> button_start
 //Start story button change color when hover
     $("#button_start").click(function(){
-      $("#birds").addClass("birds-motion");
-      play_1();
+      play_2();
     });
 }
 
-function play_1(){
-       var audio = document.getElementById("audio_1");
+function play_2(){
+       var audio = document.getElementById("audio_2");
        audio.play();
 }
