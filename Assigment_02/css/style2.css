@@ -245,7 +245,48 @@ position:relative;
 }
 
 
+/* ------------------ Fishes!!!! ------------------- */
 
+
+#fish_1{
+  z-index: 7;
+  margin-top: -30%;
+  margin-left: 44%;
+  position: absolute;
+  max-width: 8%;
+}
+
+#fish_2{
+  z-index: 7;
+  margin-top: -54%;
+  margin-left: 24%;
+  position: absolute;
+  max-width: 8%;
+}
+
+#fish_3{
+  z-index: 7;
+  margin-top: -50%;
+  margin-left: 34%;
+  position: absolute;
+  max-width: 8%;
+}
+
+#fish_4{
+  z-index: 7;
+  margin-top: -40%;
+  margin-left: 64%;
+  position: absolute;
+  max-width: 8%;
+}
+
+#fish_5{
+  z-index: 7;
+  margin-top: -24%;
+  margin-left: 58%;
+  position: absolute;
+  max-width: 8%;
+}
 
 /* ------------------ Scrolling JQuery Plugg-in ------------------- */
 

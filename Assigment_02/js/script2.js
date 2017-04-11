@@ -19,6 +19,13 @@ scroll_color() //controls the change of color when scrolling
 button_start() //controls the start button, color and actions
 mango(); //Blurs and unblurs the mango on the tree.
 
+$(".pez").hover(function(){
+$(".pez").animate({
+    right: Math.floor(Math.random() * 700) + "px",
+    left: Math.floor(Math.random() * 700) + "px"
+  });
+  });
+
 
 });
 
