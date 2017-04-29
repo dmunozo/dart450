@@ -49,12 +49,12 @@ scene.setTween("body", 05, {
 }
 
 function mango(){ //--------------------------------------> Mango
-//Add blur to the mango on page 1
+//Add blur to the mango on page 3
 
-  $('#mango').addClass('blur');
+  $('#antena').addClass('blur');
 
 //When hover over the mango, remove blur
-  $('#mango').hover(function () {
+  $('#antena').hover(function () {
     $(this).removeClass('blur');
   },function () {
   });
