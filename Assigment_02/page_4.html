@@ -1,0 +1,99 @@
+<!-- ************************************************************************
+Daniel Munoz
+MACONDO
+
+************************************************************************ -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head class="no-skrollr">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>Macondo</title>
+
+  <!-- **************************- LINKS -**********************************-->
+
+  <link rel="stylesheet" type="text/css" href="css/style3.css" />
+
+  <!-- jQuery  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- jQuery UI -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+  <!-- My Javascript  -->
+  <script src="js/script3.js" content="text/javascript"></script>
+
+  <!-- ScrollMagic  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+  <script src="js/ScrollMagic.min.js"></script>
+  <script type="text/javascript" src="dist/skrollr.min.js"></script>
+
+  <!-- Responsive Voice  -->
+  <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+
+  <!-- Animation Plug-in  -->
+  <script src="js/plugins/animation.gsap.min.js"></script>
+
+</head>
+
+
+  <!-- **************************- BODY -**********************************-->
+
+
+
+<body>
+
+<div id="container">
+<div id="skrollr-body">
+
+<a href="page_4.html"><div id="mango"></div></a>
+
+      <audio id="music" autoplay loop>
+        <source src="music.mp3" type="audio/mp3">
+      </audio>
+
+      <audio id="audio_3">
+        <source src="sound/macondo_3.mp3" type="audio/mp3">
+      </audio>
+
+
+      <img id="cloud" data-0="left:60%;" data-400="left:65%;" src="images/cloud.png">
+      <img id="cloud_2" data-0="left:30%;" data-400="left:35%;" src="images/cloud_2.png">
+      <img id="stars" data-0="left:0%; opacity:1;" data-500="left:-5%; opacity:0;" src="images/stars.png">
+      <img id="city" data-10="opacity:1;" data-560="opacity:1;" src="images/city.png">
+
+      <a href="page_2.html"><div id="antena"></div></a>
+
+
+  <img id="branch_2" data-120="left:14%;" data-830="left:10%;"src="images/dark_2.png">
+  <img id="branch_4" data-0="left:-6%;" data-830="left:-0%;" src="images/dark_1.png">
+  <img id="background" data-10="opacity:0;" data-560="opacity:0.2;" src="images/background.png">
+
+
+
+    </div>
+
+
+      <div data-10="margin-top:-42%;" data-860="margin-top:-72%;" id="button_start">
+      </div>
+
+
+
+</body>
+
+
+  	<script type="text/javascript">
+  	skrollr.init({
+  		render: function(data) {
+  			//Loop
+  			data.curTop === data.maxTop
+  		}
+  	});
+  	</script>
+
+
+</html>
