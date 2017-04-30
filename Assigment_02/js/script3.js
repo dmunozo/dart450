@@ -49,12 +49,12 @@ scene.setTween("body", 05, {
 }
 
 function mango(){ //--------------------------------------> Mango
-//Add blur to the mango on page 3
+//Add blur to the mango on page 1
 
-  $('#antena').addClass('blur');
+  $('#mango').addClass('blur');
 
 //When hover over the mango, remove blur
-  $('#antena').hover(function () {
+  $('#mango').hover(function () {
     $(this).removeClass('blur');
   },function () {
   });
@@ -64,11 +64,11 @@ function mango(){ //--------------------------------------> Mango
 function button_start(){ //-------------------------------> button_start
 //Start story button change color when hover
     $("#button_start").click(function(){
-      play_2();
+      play_3();
     });
 }
 
-function play_2(){
-       var audio = document.getElementById("audio_2");
+function play_3(){
+       var audio = document.getElementById("audio_3");
        audio.play();
 }
