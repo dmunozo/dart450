@@ -179,6 +179,15 @@ position:relative;
   z-index: 1;
 }
 
+#city_2{
+  display: block;
+  position:relative;
+  max-width: 100%;
+  margin-top: -30%;
+  margin-left: 0%;
+  z-index: 1;
+}
+
 #background{
   display: block;
   position:relative;
