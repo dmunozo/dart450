@@ -91,14 +91,9 @@ h2{
   background-image: url("../images/antena.png");
   background-repeat: no-repeat;
   background-size: contain;
-  margin-top: 37%;
-  margin-left: 70%;
+  margin-top: -3%;
+  margin-left: 45%;
   z-index: 5;
-}
-
-.blur {
-   filter: blur(50px) !important;
-   opacity: 0.1;
 }
 
 #stars{
@@ -226,6 +221,17 @@ position:relative;
   margin-left: -20%;
   z-index: 3;
 }
+
+#cosa{
+  display: block;
+  position:relative;
+  max-width: 35%;
+  margin-top: -2%;
+  margin-left: 70%;
+  z-index: 3;
+}
+
+
 
 #satellite{
   display: block;
