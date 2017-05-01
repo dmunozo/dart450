@@ -227,6 +227,15 @@ position:relative;
   z-index: 3;
 }
 
+#satellite{
+  display: block;
+  position:relative;
+  max-width: 23%;
+  margin-top: -60%;
+  margin-left: 70%;
+  z-index: 3;
+}
+
 #background{
   display: block;
   position:relative;
@@ -246,12 +255,12 @@ position:relative;
 }
 
 #button_start{
-  background-image: url("../images/guy.png");
-  position:relative;
-  margin-top: -75%;
-  margin-left:43%;
-  width: 20%;
-  height: 20%;
+  background-image: url("../images/yo.png");
+  background-color: blue;
+  position:absolute;
+  margin-top: 10%;
+  margin-left:0%;
+  max-width: 60%;
   z-index: 8;
 }
 
