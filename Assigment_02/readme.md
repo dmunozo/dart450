@@ -1,27 +1,35 @@
 Daniel Munoz Ortiz
-Assigment 01
+Assigment 02 :: Macondo
 
-This projects explores the concept of story-telling in the web, by engaging the user
-in a story about a sailor that navegates the web without understanding the reasons
-why he is there, doing what he is doing.
+Macondo is a website coded using HTML5, CSS3 and JavaScript. This
+project is a web intervention that explores the fast and superficial interaction we have
+with the Internet. Produced for Dart 450, Web Intervention.
 
-The website is a landing page with different paragraphs puting the story together
-the content of the paragraphs is controlled by a series of functions that use arrays to
-populate the <p> tags on the HTML. Also I am using a JQuery pluggin to control the movement
-of the elements that contain the webpage.
 
-Different graphics made by myself are placed along the webpage to create a sense
-of tranquility and easy navigation, which reflects the story of the main character
-going through the web.
+Inspired by the novel 100 Years of Solitude written by the Colombian author and Nobel
+price of literature Gabriel Garcia Marquez. Macondo tells the story of a young
+indigenous man of the Arahuaco community who leaves its tribe in the mountains in
+order to go to the city, learn the new technologies of the modern society and bring this
+knowledge with him back to the tribe. The events in the story are depicted in the
+webpage through hand-drawn landscapes and characters. In the background my voice
+narrates the story and provides instructions to navigate the website. The user is asked
+to solve small puzzles and patiently interact with the webpage in order to move on the
+story. The playfulness aspect of the webpage intends to slow down the interaction
+between the user and the piece, it forces it to admire the illustrations, to stop and hear
+the words, not being able to advance without listening to the whole recording. It is an
+analogy to the act of reading. It is an in-built correlation with literature as well as a
+critique to the fast web and our ephemeral relation with our information and the
+mediums that provide it.
 
-The story loops continously to the begining of the page where the story starts.
-Ending in the beginning and explaining why the main character feels he is
-chained to a loop.
 
-I wanted to represent and combine the two aspects of my persona in this project:
-
-1) The fact that I love to create stories and experiment with different mediums
-to tell them, I love movie-making and animation, as well as drawing scenarios
-and combining them with tangeable experiences where the user interact with the story.
-
-2) My passion for Design and aesthetic arts.
+This project is in some way an autobiographical story, which symbolizes my own
+departing from Colombia and my arrival to a different culture. It is also a homage to the
+literature and the traditions of my country. This work explores several Jqury Libraries on the web
+Scrollmagic, Responsive Vioce, Animation. This piece of code is an
+invitation to everyone who experiences the webpage to explore the mysticism and
+magic realism that defines Colombia and its people. It is intended to be colorful and
+mysterious, to evoke the magic and the folklore of the indigenous peoples from the
+North coast of Colombia, their stories and their legends.
+Macondo is still being built, and it probably will continue being built for a while, it is
+indeed a graphic and interactive representation of my own story, and my story is still
+being coded.

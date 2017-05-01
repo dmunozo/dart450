@@ -65,12 +65,12 @@ function mango(){ //--------------------------------------> Mango
 
 function button_start(){ //-------------------------------> button_start
 //Start story button change color when hover
-    $("#button_start").click(function(){
-      play_3();
+    $("#mango").click(function(){
+      play_4();
     });
 }
 
-function play_3(){
-       var audio = document.getElementById("audio_3");
+function play_4(){
+       var audio = document.getElementById("audio_4");
        audio.play();
 }
