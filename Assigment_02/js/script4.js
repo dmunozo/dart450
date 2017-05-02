@@ -19,7 +19,8 @@ document.getElementById("music").volume = 0.4;
 
 scroll_color() //controls the change of color when scrolling
 button_start() //controls the start button, color and actions
-mango(); //Blurs and unblurs the mango on the tree.
+mango() //Blurs and unblurs the mango on the tree.
+
 
 $(".pez").hover(function(){
 $(".pez").animate({
@@ -52,14 +53,16 @@ scene.setTween("body", 05, {
 
 function mango(){ //--------------------------------------> Mango
 //Add blur to the mango on page 1
+$('#sign').addClass('blur2');
 
-  $('#mango').addClass('blur');
+document.getElementById('mango').onmousedown = function() {
 
-//When hover over the mango, remove blur
-  $('#mango').hover(function () {
-    $(this).removeClass('blur');
-  },function () {
-  });
+     $('#sign').removeClass('blur2');
+     console.log("Testing");
+
+
+   }
+
 
 }
 
